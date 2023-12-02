@@ -164,7 +164,5 @@ const isAnchorLink = (link: any) => {
     }
   }
   
-  module.exports = {
-    siteGraphGenerator,
-  }
+  export default siteGraphGenerator
   
