@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://pittcs.wiki/
+
+# Sitemaps
+Sitemap: https://pittcs.wiki/sitemap.xml
