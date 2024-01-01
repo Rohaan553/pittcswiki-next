@@ -1,8 +1,8 @@
 import React from "react"
 // import { useStaticQuery, graphql } from "gatsby"
 import { graphql, buildSchema } from "graphql"
-import siteGraphGenerator from "../_utils/sitegraph-generator"
-import breakdownSlugIntoUrls from "../_utils/slug_utils"
+import siteGraphGenerator from "../utils/sitegraph-generator"
+import breakdownSlugIntoUrls from "../utils/slug_utils"
 
 const sortAlphaByTitle = (a: any , b: any) => {
   if (a.title < b.title) return -1
